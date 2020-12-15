@@ -1,0 +1,16 @@
+.form-container{
+
+    display: flex;
+    flex-direction: column;
+     
+    align-items:center
+   
+    
+}
+
+.form-container textarea, .form-container input {
+    width: 300px;
+    padding:10px;
+    margin:10px;
+}
+

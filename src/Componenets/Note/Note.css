@@ -1,0 +1,21 @@
+.note-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border:1px solid grey;
+    border-radius:4px;
+    width:200px;
+    margin: 10px auto;
+    overflow:auto;
+    padding:5px;
+}
+
+.note-container div::first-letter{
+ text-decoration: solid;
+ text-decoration: underline;
+ color:blue;
+}
+
+.note-container button {
+    margin:5px;
+}

@@ -1,0 +1,20 @@
+.pin {
+  display: flex;
+  align-items: center;
+  width: 300px;
+ 
+}
+
+.pin-icon {
+  font-size: 4rem;
+}
+
+.pin-text {
+  font-size: 1.3em;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.pin p {
+  max-width:100px;
+  word-wrap: break-word;
+}
